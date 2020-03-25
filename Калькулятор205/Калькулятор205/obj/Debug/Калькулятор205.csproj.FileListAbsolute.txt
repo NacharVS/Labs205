@@ -1,0 +1,9 @@
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\bin\Debug\Калькулятор205.exe.config
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\bin\Debug\Калькулятор205.exe
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\bin\Debug\Калькулятор205.pdb
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\obj\Debug\Калькулятор205.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\obj\Debug\Калькулятор205.Form1.resources
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\obj\Debug\Калькулятор205.Properties.Resources.resources
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\obj\Debug\Калькулятор205.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\obj\Debug\Калькулятор205.exe
+C:\Users\user\source\repos\Калькулятор205\Калькулятор205\obj\Debug\Калькулятор205.pdb
