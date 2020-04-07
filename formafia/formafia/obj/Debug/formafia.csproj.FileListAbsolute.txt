@@ -1,0 +1,10 @@
+C:\Users\ДанДин\source\repos\formafia\formafia\bin\Debug\formafia.exe.config
+C:\Users\ДанДин\source\repos\formafia\formafia\bin\Debug\formafia.exe
+C:\Users\ДанДин\source\repos\formafia\formafia\bin\Debug\formafia.pdb
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.csprojAssemblyReference.cache
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.Form1.resources
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.Properties.Resources.resources
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.csproj.GenerateResource.cache
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.csproj.CoreCompileInputs.cache
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.exe
+C:\Users\ДанДин\source\repos\formafia\formafia\obj\Debug\formafia.pdb
