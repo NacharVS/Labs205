@@ -1,0 +1,131 @@
+# Labs205
+Labs205
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+using System.Threading;
+
+
+
+namespace Registration
+{
+    public partial class Form1 : Form
+    {
+       
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            
+        }
+
+        
+
+        private async void button1_Click_1(object sender, EventArgs e)
+        {
+            string writePath = @"D:\UsersData\user.txt";
+            
+
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(writePath, false, System.Text.Encoding.Default))
+                {
+                    await sw.WriteLineAsync("login - " + textBox1.Text);
+                    await sw.WriteLineAsync("Pass - " + textBox2.Text);
+                    await sw.WriteLineAsync("e-mail - " + textBox3.Text);
+                    await sw.WriteLineAsync("Name - " + textBox4.Text);
+                    await sw.WriteLineAsync("Tel - " + textBox5.Text);
+
+
+
+                }
+            }
+            catch (Exception ero)
+            {
+                Console.WriteLine(ero.Message);
+            }
+        }
+
+        private void rusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            groupBox1.Text = "Регистрация";
+            groupBox2.Text = "Логин";
+            groupBox4.Text = "Пароль";
+            groupBox3.Text = "Почта";
+            groupBox5.Text = "Имя";
+            groupBox6.Text = "Тел.";
+            button1.Text = "Регистрация";
+            button2.Text = "Очистить";
+            langToolStripMenuItem.Text = "язык";
+            settingToolStripMenuItem.Text = "настройки";
+            regiserToolStripMenuItem.Text = "Регистрация";
+            clearToolStripMenuItem.Text = "Очистить";
+        }
+
+        private void engToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            groupBox1.Text = "Registration";
+            groupBox2.Text = "Login";
+            groupBox4.Text = "Password";
+            groupBox3.Text = "E-Mail";
+            groupBox5.Text = "Name";
+            groupBox6.Text = "Tel.";
+            button1.Text = "Registration";
+            button2.Text = "Clear";
+            langToolStripMenuItem.Text = "lang";
+            settingToolStripMenuItem.Text = "setting";
+            regiserToolStripMenuItem.Text = "Registration";
+            clearToolStripMenuItem.Text = "Clear";
+        }
+
+        private async void regiserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string writePath = @"D:\UsersData\user.txt";
+
+
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(writePath, false, System.Text.Encoding.Default))
+                {
+                    await sw.WriteLineAsync("login - " + textBox1.Text);
+                    await sw.WriteLineAsync("Pass - " + textBox2.Text);
+                    await sw.WriteLineAsync("e-mail - " + textBox3.Text);
+                    await sw.WriteLineAsync("Name - " + textBox4.Text);
+                    await sw.WriteLineAsync("Tel - " + textBox5.Text);
+
+
+
+                }
+            }
+            catch (Exception ero)
+            {
+                Console.WriteLine(ero.Message);
+            }
+        }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+        }
+    }
+}
